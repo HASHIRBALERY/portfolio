@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This is first landing page css */
+.landing-name{
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.about{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(8, 57, 107, 0.584);
+}
+.content{
+  position: relative;
+  bottom: 150px;
+}
+/* skills symbol section */
+.skill-sec{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(176, 224, 230, 0.325);
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/* Footer Section // Social Links */
+.footer{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 139, 0.139);
+}
+.btn-sec{
+  background-color: rgba(176, 224, 230, 0.325);
+}
+.btn{
+  border: 2px solid black;
+  padding: 10px;
+  position: relative;
+  bottom: 50px;
+}
+.social-icons{
+  margin: 20px;
+}
+.list-sec h1{
+  color: rgb(15, 15, 13);
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.head{
+  font-size: xx-large;
+  text-decoration: underline;
+  color: rgba(196, 81, 14, 0.705);
+}
